@@ -36,7 +36,7 @@ header {
     90deg,
     rgba(188, 71, 73, 0.169),
     #a7c9571d,
-    #f2e8cf41 80%,
+    #f2e8cf41 80%
   );
   box-shadow: 10px 0 50px 1px rgba(77, 78, 83, 0.375);
 }
@@ -108,7 +108,11 @@ article {
 code {
   display: block;
   white-space: pre-line;
-  background: linear-gradient(0deg,  rgba(242, 232, 207, 0.394) , rgba(167, 201, 87, 0.205));
+  background: linear-gradient(
+    0deg,
+    rgba(242, 232, 207, 0.394),
+    rgba(167, 201, 87, 0.205)
+  );
   color: rgb(77, 78, 83);
   margin: 20px 0;
   word-break: normal;
@@ -138,6 +142,44 @@ code {
 .copyright a {
   color: inherit;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1150px) {
+  .navbar {
+    height: 400px;
+    width: 100%;
+
+    background: linear-gradient(
+      90deg,
+      rgba(188, 71, 73, 0.169),
+      #a7c9571d,
+      #f2e8cf41 80%
+    );
+    box-shadow: 10px 0 50px 1px rgba(77, 78, 83, 0.375);
+  }
+
+  .navHeader {
+    padding-top: 20px;
+    height: 50px;
+  }
+
+  .navList {
+    border-top: 1px solid rgb(167, 201, 87);
+    border-bottom: 5px solid rgba(56, 102, 65, 0.343);
+    height: 335px;
+  }
+  .navList li {
+    background: linear-gradient(
+      90deg,
+      rgb(242, 232, 207),
+      rgba(165, 199, 87, 0.013)
+    );
+  }
+  main {
+    margin: 0;
+    padding: 40px;
+    padding-top: 450px;
+  }
 }
 
 @media screen and (max-height: 900px) {
