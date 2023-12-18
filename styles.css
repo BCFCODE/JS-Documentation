@@ -146,6 +146,7 @@ code {
 
 @media screen and (max-width: 1150px) {
   .navbar {
+    opacity: 0;
     height: 400px;
     width: 100%;
 
@@ -156,11 +157,18 @@ code {
       #f2e8cf41 80%
     );
     box-shadow: 10px 0 50px 1px rgba(77, 78, 83, 0.375);
+    transition: opacity 1s;
   }
 
+  .navbar:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
   .navHeader {
     padding-top: 20px;
     height: 50px;
+    color: a7c9571d;
+    text-shadow: 0 0 20px rgb(242, 232, 207);
   }
 
   .navList {
@@ -178,7 +186,7 @@ code {
   main {
     margin: 0;
     padding: 40px;
-    padding-top: 450px;
+    /* padding-top: 450px; */
   }
 }
 
