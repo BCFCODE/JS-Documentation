@@ -1,4 +1,4 @@
-@media screen and (max-width: 1150px) {
+@media (max-width: 1150px) {
   .navbar {
     opacity: 0;
     height: 400px;
@@ -44,9 +44,23 @@
   }
 }
 
-@media screen and (max-height: 900px) {
+@media (max-height: 900px) {
   .copyright {
     display: none;
   }
 }
 
+@media (max-width: 780px) {
+  body {
+    font-size: 15px;
+  }
+  section li {
+    margin-left: 0;
+  }
+  article {
+    margin-left: 0;
+  }
+  #menuBtn {
+    opacity: 1;
+  }
+}
