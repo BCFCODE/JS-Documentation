@@ -17,12 +17,13 @@ body {
 }
 
 .nav-link {
+  font-size: 15px;
   text-decoration: none;
   color: rgb(77, 78, 83);
 }
 
 header {
-  font-size: 35px;
+  font-size: 25px;
   color: black;
 }
 
@@ -30,7 +31,7 @@ header {
   position: fixed;
   /* background-color: yellow; */
   height: 100%;
-  width: 400px;
+  width: 300px;
   border-right: 3px solid rgb(132, 132, 134);
   background: linear-gradient(
     90deg,
@@ -67,7 +68,7 @@ header {
   list-style: none;
   /* background-color: pink; */
   /* border-bottom: 3px solid black; */
-  height: 90%;
+  height: 75%;
   padding: 0;
   overflow-y: auto;
 }
@@ -83,19 +84,21 @@ header {
     #f2e8cf41 80%,
     rgba(255, 255, 255, 0.641)
   );
+  /* background-color: white; */
 }
 .navList li:last-child {
   border-bottom: 1px solid rgb(176, 180, 192);
 }
 
 main {
-  margin: 0 100px 0 450px;
+  margin: 0 100px 0 350px;
   padding-top: 40px;
 }
 
 ul {
   list-style: inside;
 }
+
 ul ul {
   list-style: circle;
   margin: 25px 0 30px 20px;
@@ -142,10 +145,11 @@ code {
   font-size: 13px;
   text-align: center;
   line-height: 15px;
-  left: 85px;
+  left: 40px;
   text-shadow: 0px 0px 2px rgb(139, 134, 134);
   opacity: 80%;
   transition: opacity 1s;
+  /* background-color: aliceblue; */
 }
 
 .copyright:hover {

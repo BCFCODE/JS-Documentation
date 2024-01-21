@@ -44,11 +44,11 @@
   }
 }
 
-@media (max-height: 900px) {
+/* @media (max-height: 900px) {
   .copyright {
     display: none;
   }
-}
+} */
 
 @media (max-width: 780px) {
   body {
