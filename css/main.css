@@ -17,6 +17,29 @@ body {
   );
 }
 
+#menuBtn {
+  font-size: 25px;
+  position: fixed;
+  right: 0;
+  bottom: 60px;
+  width: 200px;
+  height: 50px;
+  border-radius: 40px 0 0 10px;
+  background-color: rgba(188, 71, 73, 0.267);
+  color: rgba(188, 71, 73, black);
+  text-shadow: 0 0 50px white;
+  opacity: 20%;
+  transition: opacity 1s;
+  border: none;
+}
+#menuBtn:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+#menuBtn:focus {
+  opacity: 100%;
+}
+
 .nav-link {
   font-size: 15px;
   text-decoration: none;
@@ -43,11 +66,7 @@ header {
   box-shadow: 10px 0 50px 1px rgba(77, 78, 83, 0.375);
 }
 
-#menuBtn {
-  opacity: 0;
-  transition: opacity 1s;
-  z-index: 1;
-}
+
 
 .navHeader {
   text-align: center;

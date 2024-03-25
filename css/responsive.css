@@ -46,28 +46,7 @@
     /* padding-top: 450px; */
   }
 
-  #menuBtn {
-    font-size: 25px;
-    position: fixed;
-    right: 0;
-    bottom: 60px;
-    width: 200px;
-    height: 50px;
-    border-radius: 40px 0 0 10px;
-    background-color: rgba(188, 71, 73, 0.267);
-    color: rgba(188, 71, 73, black);
-    text-shadow: 0 0 50px white;
-    opacity: 40%;
-    transition: opacity 1s;
-    border: none;
-  }
-  #menuBtn:hover {
-    opacity: 100%;
-    cursor: pointer;
-  }
-  #menuBtn:focus {
-    opacity: 100%;
-  }
+  
   .copyright {
     right: 10px;
     text-align: right;
