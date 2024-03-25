@@ -64,6 +64,9 @@
   body {
     font-size: 15px;
   }
+  #menuBtn {
+    opacity: 60%;
+  }
   section li {
     margin-left: 0;
   }
